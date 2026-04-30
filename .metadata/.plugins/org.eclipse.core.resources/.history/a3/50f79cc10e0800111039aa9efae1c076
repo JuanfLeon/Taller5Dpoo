@@ -1,0 +1,8 @@
+package mundo;
+
+public class Calcuadora {
+
+	public double sumar (int a, int b) {
+		return a+b;
+	}
+}

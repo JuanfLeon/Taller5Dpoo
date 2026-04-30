@@ -1,0 +1,9 @@
+Cliente: Juan Felipe Leon
+Dirección: Universidad de los Andes
+----------------
+Hamburguesa
+            10000
+----------------
+Precio Neto:  10000
+IVA:          1900
+Precio Total: 11900

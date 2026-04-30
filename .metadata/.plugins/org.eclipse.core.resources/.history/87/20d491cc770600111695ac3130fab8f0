@@ -1,0 +1,13 @@
+package DefaultPackage;
+
+public class Planta extends SerVivo{
+	private boolean tieneClorofila;
+	
+	public Planta(){
+		tieneClorofila=false;
+	}
+	
+	public void hacerFotosistesis() {
+		tieneClorofila=true;
+	}
+}

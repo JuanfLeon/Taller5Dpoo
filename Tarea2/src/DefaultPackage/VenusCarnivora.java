@@ -1,0 +1,36 @@
+package DefaultPackage;
+
+public class VenusCarnivora extends Planta {
+
+	private int insectosAtrapados;
+	
+	@Override
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void reproducirse() {
+		// TODO Auto-generated method stub
+		
+	}
+	public int getInsectosAtrapados() {
+		return insectosAtrapados;
+	}
+	public void setInsectosAtrapados(int insectosAtrapados) {
+		this.insectosAtrapados = insectosAtrapados;
+	}
+	public VenusCarnivora(boolean clorofila) {
+		super(clorofila);
+		insectosAtrapados=0;
+		
+	}
+	
+}

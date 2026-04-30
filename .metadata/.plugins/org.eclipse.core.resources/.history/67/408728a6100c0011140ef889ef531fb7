@@ -1,0 +1,69 @@
+package mundo;
+
+import estructuras.Lista;
+
+public class Curso {
+
+	private String nombre;
+	private int cantidadMaxima;
+	private Lista<Estudiante> estudiantes;
+	private Lista<Profesor> profesores;
+	private Lista variasCosas;
+	
+	
+	public Curso(String nombre, int cantidadMaxima) {
+		this.nombre = nombre;
+		this.cantidadMaxima = cantidadMaxima;
+		estudiantes = new Lista<Estudiante>();
+		profesores = new Lista<Profesor>();
+		variasCosas = new Lista<>();
+		
+//		Profesor p = new Profesor("John");
+//		Estudiante e = new Estudiante("Jeronimo", "202410123123", 20);
+//		String x = "CualquierCosa";
+//		
+////		estudiantes.add(p);
+//		estudiantes.add(e);
+//		
+//		variasCosas.add(e);
+//		variasCosas.add(p);
+//		variasCosas.add(x);
+		
+	}
+	
+	public Lista getEstudiantes() {
+		return estudiantes;
+	}
+	
+	
+	public static void main(String[] args) {
+		Curso c = new Curso("DPO", 24);
+		c.agregarEstudiantes();
+		System.out.println(c.getEstudiantes());
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public int getCantidadMaxima() {
+		return cantidadMaxima;
+	}
+	public void setCantidadMaxima(int cantidadMaxima) {
+		this.cantidadMaxima = cantidadMaxima;
+	}
+	
+	public void agregarEstudiantes() {
+		Estudiante e1 = new Estudiante("Juan","123",20);
+		Estudiante e2 = new Estudiante("Camila","234",20);
+		Estudiante e3 = new Estudiante("Ricardo","555",20);
+		estudiantes.add(e1);
+		estudiantes.add(e2);
+		estudiantes.add(e3);
+	}
+	
+	
+	
+}

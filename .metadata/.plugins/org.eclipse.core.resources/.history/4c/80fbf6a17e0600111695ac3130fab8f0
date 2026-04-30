@@ -1,0 +1,12 @@
+package DefaultPackage;
+
+public class Gato extends Mascota {
+	
+	private int vidasRestantes;
+	private boolean esCazador;
+	
+	public Gato(int edad, String nombre1, int vidasRestantes, boolean esCazador) {
+		super(edad, nombre1);
+		// TODO Auto-generated constructor stub
+	}
+}

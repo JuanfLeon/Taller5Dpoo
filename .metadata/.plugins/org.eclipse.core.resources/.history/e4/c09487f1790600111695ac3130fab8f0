@@ -1,0 +1,25 @@
+package DefaultPackage;
+
+public class Cactus extends Planta {
+
+	private int cantidadDeEspinas;
+	private double capacidadAlmacenamientoAgua;
+	@Override
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void reproducirse() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

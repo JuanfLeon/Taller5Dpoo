@@ -1,0 +1,20 @@
+package mundo;
+
+public class Calcuadora {
+
+	public double sumar (int a, int b) {
+		return a+b;
+	}
+	
+	public double restar (int a, int b) {
+		return a-b;
+	}
+	public double multiplicar(int a, int b) {
+		return a*b;
+	}
+	public double dividir(int a, int b)throws Exception{
+		if(b==0) {
+			Exception x= new Exeption("","");
+		}
+	}
+}

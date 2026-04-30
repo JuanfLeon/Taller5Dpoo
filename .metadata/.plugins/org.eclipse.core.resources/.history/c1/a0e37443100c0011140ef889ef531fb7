@@ -1,0 +1,26 @@
+package estructuras;
+
+public class Nodo <E> {
+
+	private Nodo<E> siguiente;
+
+	private E elemento;
+	
+	public Nodo(E contenido) {
+		elemento = contenido;
+	}
+	
+	public Nodo getSiguiente() {
+		return siguiente;
+	}
+
+	public void setSiguiente(Nodo siguiente) {
+		this.siguiente = siguiente;
+	}
+	
+	public E getElemento() {
+		return elemento;
+	}
+	
+	
+}

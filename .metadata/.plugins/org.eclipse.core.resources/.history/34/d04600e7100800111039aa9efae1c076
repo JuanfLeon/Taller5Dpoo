@@ -1,0 +1,35 @@
+package mundo;
+
+public class Calcuadora {
+
+	public double sumar (int a, int b) {
+		return a+b;
+	}
+	
+	public double restar (int a, int b) {
+		return a-b;
+	}
+	public double multiplicar(int a, int b) {
+		return a*b;
+	}
+	public double dividir(int a, int b)throws Exception{
+		if(b==0) {
+			Exception x= new Exception("No se puede dividir por 0");
+			throw x;
+		}
+		return a/b;
+	}
+
+
+public void elLlamado () {
+	try {
+		double res= dividir(4, 0);
+		System.out.println("el resultado es: "res);
+	}
+	catch(Exception e) {
+		String mensaje= e.getMessage();
+		System.out.println(mensaje);
+		e.printStackTrace();
+	}
+}
+}

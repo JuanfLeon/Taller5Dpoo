@@ -1,0 +1,5 @@
+package DefaultPackage;
+
+public abstract class Mascota extends Animal{
+
+}

@@ -1,0 +1,47 @@
+package DefaultPackage;
+
+public class Cactus extends Planta {
+
+	private int cantidadDeEspinas;
+	private double capacidadAlmacenamientoAgua;
+	
+	@Override
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void reproducirse() {
+		// TODO Auto-generated method stub
+		
+	}
+	public int getCantidadDeEspinas() {
+		return cantidadDeEspinas;
+	}
+	
+	public double getCapacidadAlmacenamientoAgua() {
+		return capacidadAlmacenamientoAgua;
+	}
+	
+	public void setCantidadDeEspinas(int cantidadDeEspinas) {
+		this.cantidadDeEspinas = cantidadDeEspinas;
+	}
+	
+	public void setCapacidadAlmacenamientoAgua(double capacidadAlmacenamientoAgua) {
+		this.capacidadAlmacenamientoAgua = capacidadAlmacenamientoAgua;
+	}
+	
+	public Cactus(int cantidadEspinas, double capacidadAgua, boolean clorofila) {
+		super(clorofila);
+		cantidadDeEspinas=cantidadEspinas;
+		capacidadAlmacenamientoAgua=capacidadAgua;
+	}
+	
+}

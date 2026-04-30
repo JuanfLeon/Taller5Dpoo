@@ -1,0 +1,34 @@
+package DefaultPackage;
+
+public class Girasol extends Planta{
+
+	private double diametroFlor;
+	@Override
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void reproducirse() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public double getDiametroFlor() {
+		return diametroFlor;
+	}
+	public void setDiametroFlor(double diametroFlor) {
+		this.diametroFlor = diametroFlor;
+	}
+	public Girasol(int tamanio, boolean cloroflia) {
+		super(clorofila);
+		diametroFlor=tamanio;
+	}
+}

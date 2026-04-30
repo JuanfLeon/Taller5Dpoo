@@ -1,0 +1,23 @@
+package DefaultPackage;
+
+public class Perro extends Mascota{
+
+	@Override
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void reproducirse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

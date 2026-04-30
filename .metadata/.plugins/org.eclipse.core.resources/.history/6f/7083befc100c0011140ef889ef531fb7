@@ -1,0 +1,26 @@
+package mundo;
+
+import estructuras.Lista;
+
+public class Departamento {
+
+	private String nombre;
+	
+	private Lista<Curso> cursos;
+
+	public Departamento(String nombre) {
+		this.nombre = nombre;
+		cursos = new Lista<Curso>();
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	
+	
+}

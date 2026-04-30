@@ -1,0 +1,24 @@
+package DefaultPackage;
+
+public class Girasol extends Planta{
+
+	private double diametroFlor;
+	@Override
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void reproducirse() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

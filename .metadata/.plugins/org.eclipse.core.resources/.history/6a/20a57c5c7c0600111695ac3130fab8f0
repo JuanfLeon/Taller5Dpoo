@@ -1,0 +1,15 @@
+package DefaultPackage;
+
+public abstract class Animal implements SerVivo{
+	private int edad;
+	
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public abstract void hacerSonido();
+	
+	public abstract Animal();
+}

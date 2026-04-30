@@ -1,0 +1,8 @@
+package DefaultPackage;
+
+public class Gato extends Mascota {
+	private int vidasRestantes;
+	private boolean esCazador;
+	
+	
+}

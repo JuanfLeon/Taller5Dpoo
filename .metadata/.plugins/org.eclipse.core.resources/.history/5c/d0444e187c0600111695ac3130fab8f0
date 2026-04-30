@@ -1,0 +1,44 @@
+package DefaultPackage;
+
+public class Perro extends Mascota{
+
+	private int nivelDeEnergia;
+	private boolean esLazarillo;
+	
+	@Override
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void reproducirse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void hacerSonido() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public int getNivelDeEnergia() {
+		return nivelDeEnergia;
+	}
+	public void setEsLazarillo(boolean esLazarillo) {
+		this.esLazarillo = esLazarillo;
+	}
+	public void setNivelDeEnergia(int nivelDeEnergia) {
+		this.nivelDeEnergia = nivelDeEnergia;
+	}
+	get boolean getesLazarillo() {
+		return esLazarillo;
+	}
+}

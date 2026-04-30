@@ -1,0 +1,9 @@
+package DefaultPackage;
+
+public class Planta extends SerVivo{
+	private boolean tieneClorofila;
+	
+	public Planta(){
+		tieneClorofila=true;
+	}
+}
